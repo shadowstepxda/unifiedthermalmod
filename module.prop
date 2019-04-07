@@ -1,7 +1,7 @@
-id=UnityTemplate
-name=Unity (Un)Installer Template
+id=unifiedthermalmod
+name=Unified Thermal Mod for Nexus 6P
 version=v4.0
-versionCode=27
-author=ahrion, zackptg5
-description=
-support=https://forum.xda-developers.com/apps/magisk/module-audio-modification-library-t3579612
+versionCode=40
+author=@shadowstep at xda-developers
+description=This module modifies the stock thermal configuration file (thermal-engine.conf) for increased performance and faster fast-charge
+support=https://forum.xda-developers.com/nexus-6p/development/mod-cttmod-xthermal-fast-charge-unified-t3673481
