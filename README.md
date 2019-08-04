@@ -6,20 +6,20 @@ This module modifies the stock thermal configuration file (thermal-engine.conf) 
 **Note:** The zip will abort the installation if you try to flash it on any other device except the Nexus 6P and if you aren't running Android Marshmallow, Nougat, Oreo or Pie.
 
 ## Changelog
-### v1.0
-- Initial release for Magisk v14.0
-
-### v1.1
-- Updated to include changes from CTTMod's latest release for Android 8.x Oreo
-
-### v2.0
-- Update for Magisk v15.0
+### v4.0
+- Updated the zip base to the Unity Installer template
 
 ### v3.0
 - Update for Magisk v17.0
 
-### v4.0
-- Updated the zip base to the Unity Installer template
+### v2.0
+- Update for Magisk v15.0
+
+### v1.1
+- Updated to include changes from CTTMod's latest release for Android 8.x Oreo
+
+### v1.0
+- Initial release for Magisk v14.0
 
 ## Links
 * [GitHub](https://github.com/nipunnarang/unifiedthermalmod)
