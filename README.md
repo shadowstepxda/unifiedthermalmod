@@ -6,6 +6,11 @@ This module modifies the stock thermal configuration file (thermal-engine.conf) 
 **Note:** The zip will abort the installation if you try to flash it on any other device except the Nexus 6P and if you aren't running Android Marshmallow, Nougat, Oreo or Pie.
 
 ## Changelog
+### v5.0
+- Added support for Android 10
+- Updated the base template to Unity v4.4
+- EOL update
+
 ### v4.0
 - Updated the zip base to the Unity Installer template
 

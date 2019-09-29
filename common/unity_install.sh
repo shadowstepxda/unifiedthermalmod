@@ -19,12 +19,19 @@ elif [ $API -eq 26 ] || [ $API -eq 27 ]; then
   ui_print " "
   ui_print "- Copying appropriate thermal configuration"
   ui_print " "
-  cp -f $TMPDIR/conf/oreo/thermal-engine.conf $TMPDIR/system/etc/thermal-engine.conf
-else
+  cp -f $TMPDIR/conf/oreo-pie-q/thermal-engine.conf $TMPDIR/system/etc/thermal-engine.conf
+elif [ $API -eq 28 ]; then
   ui_print " "
   ui_print "- Android version detected: Pie"
   ui_print " "
   ui_print "- Copying appropriate thermal configuration"
   ui_print " "
-  cp -f $TMPDIR/conf/pie/thermal-engine.conf $TMPDIR/system/etc/thermal-engine.conf
+  cp -f $TMPDIR/conf/oreo-pie-q/thermal-engine.conf $TMPDIR/system/etc/thermal-engine.conf
+else
+  ui_print " "
+  ui_print "- Android version detected: Q"
+  ui_print " "
+  ui_print "- Copying appropriate thermal configuration"
+  ui_print " "
+  cp -f $TMPDIR/conf/oreo-pie-q/thermal-engine.conf $TMPDIR/system/etc/thermal-engine.conf
 fi
